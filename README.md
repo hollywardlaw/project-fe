@@ -1,16 +1,25 @@
-# project
+# AIrene
 
-A new Flutter project.
+## About
 
-## Getting Started
+This is the front end for our Northcoders final project. 
 
-This project is a starting point for a Flutter application.
+AIrene is a cross-platform mobile application designed to help people who suffer from anxiety and other mental health problems.
 
-A few resources to get you started if this is your first Flutter project:
+The app features a chatbot which checks in with the user and make sure they are okay. The tone of the chatbot changes depending on the users response. The chatbot also picks up on potentially alarming words from the user and reccommends getting in touch with Samaritans. The user can log activities and personal achievements through the chatbot. 
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+Other features of the app include a diary for the user to keep track of their activities and mood, a report that tracks the users mood over time, a resources page with useful links, and a breathing exercise designed to help calm down the user in case of a panic attack. 
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Technologies used
+
+The front end was written in Dart using Google's Flutter framework. 
+
+Dialogflow was used to build the chatbot and the responses and database interaction were built using Cloud Functions in Node.js.
+
+Cloud Firestore was used for the database. 
+
+Firebase Authentication was used for the user login.
+
+## Back end for this project
+
+https://github.com/hollywardlaw/project-be
